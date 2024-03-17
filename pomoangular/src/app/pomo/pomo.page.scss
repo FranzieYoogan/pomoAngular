@@ -1,0 +1,67 @@
+.inputStyle {
+
+    width: 100%;
+    font-size: 50px !important;
+text-align: center;
+
+    background-color: transparent;
+    color: white;
+    font-weight: 900;
+}
+
+.inputStyle2 {
+
+    color: white;
+    font-weight: 900;
+    font-size: 50px !important;
+    margin-top: 55px;
+    margin-right: 0.5em;
+    cursor: default;
+}
+
+.containerPomo {
+
+    display: flex;
+    justify-content: center;
+    
+    background: linear-gradient(purple,rgb(231, 4, 231));
+    height: 110vh;
+}
+
+.buttonStyle {
+
+    position: fixed;
+    top: 73%;
+    left: 80%;
+    border: 1px solid transparent;
+    border-radius: 90px;
+    transition: 1s;
+}
+
+
+
+.buttonStyle:hover {
+
+    border: 1px solid white;
+    background-color:rgb(231, 4, 231) ;
+
+}
+
+.startStyle {
+    width: 90px;
+
+}
+
+
+
+.containerItems {
+    margin-top: 2em;
+    border: 2px solid black;
+    border-radius: 200px;
+    display: flex;
+
+    padding: 18px;
+    width: 250px;
+    height: 230px;
+    background: linear-gradient(rgb(255, 0, 255),white);
+}

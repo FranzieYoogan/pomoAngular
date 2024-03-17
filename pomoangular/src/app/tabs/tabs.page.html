@@ -1,0 +1,26 @@
+<ion-tabs>
+
+
+  <ion-tab-bar  class="containerStyle" slot="bottom">
+
+
+
+    <a (click)="pomoEvent()" tab="pomo">
+<img class="pomoIconStyle" id="pomoIconStyle" src="/assets/img/pomoIcons/timer.png" alt="">
+      <label id="pomoTitle" class="pomoTitle">Pomo</label>
+    </a>
+
+    <a (click)='aboutEvent()' type="button" tab="about" href="/tabs/about">
+<img class="aboutIconStyle" id="aboutIconStyle" src="/assets/img/aboutIcons/about.png" alt="">
+      <label class="pomoTitle" id="aboutTitle">About</label>
+    </a>
+
+    <a tab="tab3" href="/tabs/tab3">
+      <ion-icon aria-hidden="true" name="square"></ion-icon>
+      <ion-label>Tab 3</ion-label>
+    </a>
+
+
+  </ion-tab-bar>
+
+</ion-tabs>

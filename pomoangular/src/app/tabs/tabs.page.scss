@@ -1,0 +1,59 @@
+
+.pomoTitle {
+
+    color: gray ;
+
+
+}
+
+
+.pomoTitle:hover {
+
+    color: black;
+
+
+}
+
+.pomoTitle {
+
+    color: gray;
+
+}
+
+.pomoIconStyle {
+margin-left: 8px;
+
+}
+.aboutIconStyle {
+
+    margin-left: 11px;
+
+}
+
+.pomoIconStyle:hover ~ .pomoTitle {
+
+    color: #800080;
+
+}
+
+.containerStyle {
+
+    display: flex;
+    gap: 3em;
+    border-top: 1px solid transparent;
+    box-shadow: 4px 4px 4px 4px  black;
+}
+
+a {
+
+    cursor: pointer;
+    text-decoration: none;
+
+
+}
+
+label {
+
+
+
+}
